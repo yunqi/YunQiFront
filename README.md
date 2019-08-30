@@ -13,12 +13,12 @@ dev mode: [http://localhost:3000](http://localhost:3000)
 
 所有文件打包到`/build` 
 
-### 发布到gh-pages
+### 发布到gh-pages 'yarn deploy'
 
 ```
 
-git add build -f
-git commit -m "xxx gh-pages push"
-git subtree push --prefix build origin gh-pages
+// git add build -f
+// git commit -m "xxx gh-pages push"
+// git subtree push --prefix build origin gh-pages
 
 ```

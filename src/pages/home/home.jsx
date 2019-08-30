@@ -1,4 +1,4 @@
-import './home.less'
+import './Home.less'
 import React, { Component } from 'react';
 
 class Home extends Component {

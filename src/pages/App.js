@@ -1,6 +1,7 @@
 import React from 'react';
 import logo from '@assets/img/logo.png';
 import './App.css';
+import Home from '@pages/home/Home';
 
 function App() {
   return (
@@ -17,6 +18,11 @@ function App() {
           rel="noopener noreferrer"
         >
           Learn More
+        </a>
+        <a 
+          href="::javascript"
+          className="App-link">
+          <Home></Home>
         </a>
       </header>
     </div>
